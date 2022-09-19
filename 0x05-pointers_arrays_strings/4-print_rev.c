@@ -20,3 +20,4 @@ void print_rev(char *s)
 		counter--;
 	}
 	_putchar(10);
+}
