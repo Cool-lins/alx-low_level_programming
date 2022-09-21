@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _strncat - concatenates two strings and removes the source file
@@ -14,18 +15,14 @@ char *_strncat(char *dest, char *src, int n)
 
 	while (dest[b] != '\0')
 		b++;
-	while (src[c] != '\0' && n > c)
+	while (src[c] != '\0' &&)
 	{
 		dest[b] = src[c];
 
 		b++;
 		c++;
 	}
+	dest[b] = '\0';
 
-	if (n > 0)
-	{
-		dest[b] = '\0';
-	}
 	return (dest);
-
 }
