@@ -2,13 +2,13 @@
 #include <stdio.h>
 
 /**
- * _strncat - concatenate two strings
+ * _strcat - concatenate two strings
  * @dest: first string
  * @src: second string
  * Return: dest
  */
 
-char *_strncat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int a = 0, p = 0;
 
