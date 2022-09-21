@@ -2,7 +2,7 @@
 
 /**
  * string_toupper - change all lower case of a string to uppercase
- * @Night: pointer i gave myself
+ * @CEO: pointer i gave myself
  * Return: CEO
  */
 
