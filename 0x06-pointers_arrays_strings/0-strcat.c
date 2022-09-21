@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strncat - concatenates two strings and removes the source file
+ * _strncat - concatenate two strings
  * @dest: first string
  * @src: second string
  * @n: bytes to use from source
