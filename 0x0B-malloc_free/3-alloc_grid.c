@@ -24,7 +24,6 @@ int **alloc_grid(int width, int height)
 	/* if ceo is equal to Null return Null*/
 
 	if (spike == NULL)
-
 		return (NULL);
 	/*for every i thats 0 and less than height increase i*/
 	for (i = 0; i < height; i++)
