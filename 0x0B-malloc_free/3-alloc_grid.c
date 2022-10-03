@@ -26,6 +26,7 @@ int **alloc_grid(int width, int height)
 	if (spike == NULL)
 		return (NULL);
 	/*for every i thats 0 and less than height increase i*/
+
 	for (i = 0; i < height; i++)
 	{
 		/*size of spike[i] using malloc*/
