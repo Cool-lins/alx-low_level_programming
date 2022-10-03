@@ -13,15 +13,14 @@ int **alloc_grid(int width, int height)
 
 {
 
-	int **spike;
+	int **night;
 	int i, a;
 
 	if (width <= 0 || height <= 0)
 		return (NULL);
-
 	spike = malloc(height * sizeof(int *));
 
-	/* if ceo is equal to Null return Null*/
+	/* if night is equal to Null return Null*/
 
 	if (spike == NULL)
 		return (NULL);
@@ -32,9 +31,9 @@ int **alloc_grid(int width, int height)
 		/*size of spike[i] using malloc*/
 
 		spike[i] = malloc(width * sizeof(int));
-		/*check if ceo[i] is equal to Null*/
+		/*check if night[i] is equal to Null*/
 
-		if (ceo[i] == NULL)
+		if (night[i] == NULL)
 		{
 			while (i >= 0)
 				/*free spike[i]*/
@@ -50,3 +49,13 @@ int **alloc_grid(int width, int height)
 	}
 	return (spike);
 }
+
+
+
+
+
+
+
+
+
+
